@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sessions</title>
+  <link rel="stylesheet" href="session.css">
+</head>
+<style>
+    .head{
+    margin: auto;
+    display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  
+}
+
+.card {
+  box-shadow:black;
+  transition: 0.3s;
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+ border-style: solid;
+ border-width: thick;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: auto;
+  margin: auto;
+   border-color: black;
+  background: orange;
+  align-content: center;
+  
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background: var(--accent-color);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--text-color);
+}
+.logo-img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #222;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+#navbar{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin:0;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid orange;
+}
+.register-btn {
+  display: inline-block;
+  background-color: #ff6f00;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #e65100;
+}
+</style>
+<body style="background-color: orange;">
+      <header>
+      <div class="navbar">
+            <img src="https://i.postimg.cc/Vvdhf2Cp/debsoc-logo.png" alt="SMVIT DEBSOC Logo" class="logo-img">
+          <h1 class="logo">SMVIT DEBSOC</h1>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="index1.html">Home</a></li>
+                  <li><a href="#about">Apply</a></li>
+                  <li><a href="session.html">Sessions</a></li>
+                  <li><a href="timer.html">Debate Timer</a></li>
+                  <li><a href="auth.html">Login</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+    
+<h2 align="CENTER" style="color: white; ">DEBATE TOURNAMENTS</h2>
+<div class="head">
+<div class="footer">
+  <div class="footer-content">
+    <h1 style="color: darkorange; font-weight: 900;">TYPES OF TOURNAMENT</h1>
+
+    <p><strong>ASIAN PARLIAMENTARY</strong><br>
+      (1) 3v3 Government vs Opposition<br>
+      (2) 6x7 minute speeches + 4x2 minute reply speeches<br>
+      (3) 25+5 minutes prep time
+    </p>
+
+    <p><strong>BRITISH PARLIAMENTARY</strong><br>
+      (1) 4 Teams, 2 members each: Opening Gov, Opening Op, Closing Gov, Closing Op<br>
+      (2) 8x7 minute speeches<br>
+      (3) 15 minute prep time
+    </p>
+  </div>
+</div>
+<div class="card">
+  <img src="https://static.vecteezy.com/system/resources/previews/025/904/531/non_2x/two-speaker-debate-and-argue-on-a-podium-illustration-depicts-concept-of-argument-political-point-of-view-disagreement-discussion-different-opinions-and-presentation-vector.jpg" alt="DEBATE" style="width:100%">
+  <div class="container">
+    <h4 align="CENTER"><b>1ST JUNE 2025</b></h4> 
+    <p align="CENTER">Debate on Women Empowerment</p> 
+    <p align="CENTER">
+    <a href="./form.html" class="register-btn">Register</a>
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://static.vecteezy.com/system/resources/previews/025/904/531/non_2x/two-speaker-debate-and-argue-on-a-podium-illustration-depicts-concept-of-argument-political-point-of-view-disagreement-discussion-different-opinions-and-presentation-vector.jpg" alt="DEBATE" style="width:100%">
+  <div class="container">
+    <h4 align="CENTER"><b>3RD JUNE 2025</b></h4> 
+    <p align="CENTER">Debate on Unemployment</p> 
+    <p align="CENTER">
+    <a href="./form.html" class="register-btn">Register</a>
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://static.vecteezy.com/system/resources/previews/025/904/531/non_2x/two-speaker-debate-and-argue-on-a-podium-illustration-depicts-concept-of-argument-political-point-of-view-disagreement-discussion-different-opinions-and-presentation-vector.jpg" alt="DEBATE" style="width:100%">
+  <div class="container">
+    <h4 align="CENTER"><b>5TH JUNE 2025</b></h4> 
+    <p align="CENTER">Debate on Nuclear Usage</p> 
+    <p align="CENTER">
+    <a href="./form.html" class="register-btn">Register</a>
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://static.vecteezy.com/system/resources/previews/025/904/531/non_2x/two-speaker-debate-and-argue-on-a-podium-illustration-depicts-concept-of-argument-political-point-of-view-disagreement-discussion-different-opinions-and-presentation-vector.jpg" alt="DEBATE" style="width:100%">
+  <div class="container">
+    <h4 align="CENTER"><b>10TH JUNE 2025</b></h4> 
+    <p align="CENTER">Debate on Language Barriers</p> 
+    <p align="CENTER">
+    <a href="./form.html" class="register-btn">Register</a>
+    </p>
+  </div>
+</div>
+</body>
+</html> 

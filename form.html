@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Application Form</title>
+  <link rel="stylesheet" type="text/css" href="form.css" />
+</head>
+<body>
+      <header>
+      <div class="navbar">
+            <img src="https://i.postimg.cc/Vvdhf2Cp/debsoc-logo.png" alt="SMVIT DEBSOC Logo" class="logo-img">
+          <h1 class="logo">SMVIT DEBSOC</h1>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="index1.html">Home</a></li>
+                  <li><a href="#about">Apply</a></li>
+                  <li><a href="session.html">Sessions</a></li>
+                  <li><a href="timer.html">Debate Timer</a></li>
+                  <li><a href="auth.html">Login</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+
+<FORM NAME="APPFORM" METHOD="POST" >
+
+<div class="card">
+<TABLE CELLSPACING=5 CELLPADDING=5% ALIGN=CENTER>
+<TR>
+<TD ALIGN=LEFT>STUDENT NAME: </TD>
+<TD><INPUT TYPE="TEXT" NAME="STUNAME"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>USN: </TD>
+<TD><INPUT TYPE="TEXT" NAME="USN"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>COURSE: </TD>
+<TD><INPUT TYPE="TEXT" NAME="COURSE"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>SECTION: </TD>
+<TD><INPUT TYPE="TEXT" NAME="SEC"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>CONTACT NUMBER: </TD>
+<TD><INPUT TYPE="TEXT" NAME="CONTACT"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT> EMAIL ID: </TD>
+<TD><INPUT TYPE="TEXT" NAME="EMAIL"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>UPLOAD RESUME : </TD>
+<TD><INPUT TYPE=FILE NAME="RES"></TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>GENDER: </TD>
+<TD><INPUT TYPE=RADIO NAME=GEN VALUE="M">MALE
+<INPUT TYPE=RADIO NAME=GEN VALUE="F">FEMALE</TD>
+</TR>
+<TR>
+<TD ALGIN=LEFT> COURSE:
+<SELECT NAME="DROPDOWN" >
+<OPTION VALUE=1>CSE</OPTION>
+<OPTION VALUE=2>CSE-AI ML</OPTION>
+<OPTION VALUE=3>CSE-DS</OPTION>
+<OPTION VALUE=4>CSE-IOT</OPTION>
+<OPTION VALUE=5>ISE</OPTION>
+<OPTION VALUE=6>ECS</OPTION>
+<OPTION VALUE=7>ECE</OPTION>
+<OPTION VALUE=8>ETE</OPTION>
+<OPTION VALUE=9>RAI</OPTION>
+<OPTION VALUE=10>BT</OPTION>
+<OPTION VALUE=11>CV</OPTION>
+<OPTION VALUE=12>ME</OPTION>
+<OPTION VALUE=13>EEE</OPTION>
+</SELECT>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=LEFT>YEAR
+<TD><INPUT TYPE=RADIO NAME=YR VALUE="1">FIRST
+<INPUT TYPE=RADIO NAME=YR VALUE="2">SECOND
+<INPUT TYPE=RADIO NAME=YR VALUE="3">THIRD
+<INPUT TYPE=RADIO NAME=YR VALUE="4">FOURTH</TD>
+</TD>
+</TR>
+
+<TR>
+<TD ALGIN=LEFT>LANGUAGES KNOWN: </TD>
+<TD ALGIN=LEFT>
+<INPUT TYPE=CHECKBOX NAME=LANG1 >KANNADA
+<INPUT TYPE=CHECKBOX NAME=LANG2 >ENGLISH
+<INPUT TYPE=CHECKBOX NAME=LANG3>HINDI
+
+</TD>
+</TR>
+<TR>
+<TD><INPUT TYPE="SUBMIT" VALUE="SUBMIT THE FORM"> </TD>
+<TD><INPUT TYPE="RESET" VALUE="RESET THE FORM"></TD>
+</TR>
+</TABLE>
+</div>
+</FORM>
+
+</body>
+</html>
