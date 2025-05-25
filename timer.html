@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> SMVIT DEBSOC Debate Timer</title>
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+      <header>
+      <div class="navbar">
+            <img src="https://i.postimg.cc/Vvdhf2Cp/debsoc-logo.png" alt="SMVIT DEBSOC Logo" class="logo-img">
+          <h1 class="logo">SMVIT DEBSOC</h1>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="index1.html">Home</a></li>
+                  <li><a href="form.html">Apply</a></li>
+                  <li><a href="session.html">Sessions</a></li>
+                  <li><a href="timer.html">Debate Timer</a></li>
+                  <li><a href="auth.html">Login</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
+
+  <h1>DEBSOC Debate Timer</h1>
+
+  <div>
+    <label for="format">Choose Debate Format:</label>
+    <select id="format">
+      <option value="Asian Parliamentary">Asian Parliamentary</option>
+      <option value="British Parliamentary">British Parliamentary</option>
+    </select>
+  </div>
+
+  <div>
+    <input type="text" id="motion-input" placeholder="Enter debate motion here..." />
+    <button onclick="startDebate()">Start Debate</button>
+  </div>
+
+  <div id="motion-display" style="display: none;">
+    <strong>Format:</strong> <span id="selected-format"></span><br>
+    <strong>Motion:</strong> <span id="motion-text"></span>
+  </div>
+
+  <div id="timer">07:00</div>
+
+  <div>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <script src="timer.js"></script>
+</body>
+</html>
