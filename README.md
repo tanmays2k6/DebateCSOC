@@ -1,2 +1,0 @@
-# DebateCSOC
-hello
