@@ -23,7 +23,10 @@ app.get('/form', (req, res) => {
   res.sendFile(path.join(__dirname, 'form.html'));
 });
 
-// Start the server
+app.get('/submit', (req, res) => {
+  res.sendFile(path.join(__dirname, 'submit.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
